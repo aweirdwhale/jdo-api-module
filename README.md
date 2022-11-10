@@ -1,11 +1,11 @@
-# Pronote API - LISEZ MOI ABSOLUMENT
+# Pronote API - Atrium FIX
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/Litarvan/pronote-api/Node.js%20linting%20and%20testing/master?label=tests&logo=github&style=flat-square)
 [![MIT license](https://img.shields.io/badge/license-MIT-lightgray?style=flat-square)](LICENSE)
 [![Latest release](https://img.shields.io/github/v/release/Litarvan/pronote-api?color=darkgreen&include_prereleases&label=Latest%20release&style=flat-square)](https://github.com/Litarvan/pronote-api/releases)
 [![NPM release](https://img.shields.io/npm/v/pronote-api?style=flat-square)](https://npmjs.org/package/pronote-api)
 
-API Pronote **2020/2021** complète et plutôt stable avec intégration de nombreux CAS (connexion avec comptes spéciaux pour les régions).
+Dépendence npm, basée sur pronote-api de Litarvan: atrium-cas ne marchait plus, je l'ai réparé.
 
 Disponible en tant que :
 - Librairie Node.JS [via NPM](https://www.npmjs.com/package/pronote-api) (note : **support TypeScript** complet)
@@ -51,7 +51,7 @@ Sinon, l'API propose de se connecter à Pronote avec des comptes des académies 
     - Académie de Lille (CAS : ac-lille2, URL : "teleservices.ac-lille.fr")
     - Académie de Limoges (CAS : ac-limoges, URL : "mon.lyceeconnecte.fr")
     - Académie de Lyon (CAS : ac-lyon, URL : "cas.ent.auvergnerhonealpes.fr)
-    - Académie de Marseille (CAS : atrium-sud, URL : "atrium-sud.fr")
+    - Académie de Marseille (CAS : atrium-sud, URL : "atrium-sud.fr") -> hehehe
     - Académie de Montpellier (CAS : ac-montpellier, URL : "cas.mon-ent-occitanie.fr")
     - Académie de Nancy-Metz (CAS : ac-nancy-metz, URL : "cas.monbureaunumerique.fr")
     - Académie de Nantes (CAS : ac-nantes, URL : "cas3.e-lyco.fr")
@@ -85,7 +85,7 @@ Sinon, l'API propose de se connecter à Pronote avec des comptes des académies 
 ### Librairie
 
 ```
-$ npm i --save pronote-api
+$ npm i --save pronoteapi-atriumfix
 ```
 
 ```javascript
