@@ -7,7 +7,7 @@ async function timetable(session, user, from = new Date(), to = null)
 {
     if (!to || to < from) {
         to = new Date(from.getTime());
-        to.setDate(to.getDate() + 1);
+        to.setDate(to.getDate() + 10);
     }
 
     const filled = await getFilledDaysAndWeeks(session, user);
