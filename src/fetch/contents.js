@@ -9,7 +9,7 @@ async function contents(session, user, from = new Date(), to = null)
 {
     if (!to || to < from) {
         to = new Date(from.getTime());
-        to.setDate(to.getDate() + 10);
+        to.setDate(to.getDate() + 3);
     }
 
     const fromWeek = toPronoteWeek(session, from);

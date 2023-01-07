@@ -1,6 +1,6 @@
 {
   "name": "pronoteapi-atriumfix",
-  "version": "4.0.0",
+  "version": "4.0.6",
   "description": "Patch for atrium-pronote connexion based on Litarvan's pronote-api",
   "main": "index.js",
   "types": "index.d.ts",
