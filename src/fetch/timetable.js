@@ -50,7 +50,7 @@ function getTimetableWeek(session, table) {
 
     for (const lesson of table.lessons) {
         const from = lesson.date;
-        const to = new Date(from.getTime() + (lesson.duration / session.params.ticksPerHour * 3600000));
+        const to = new Date(from.getTime() + (lesson.duration / session.params.ticksPerHour * 3300000));
 
         const res = {
             from,
